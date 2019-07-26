@@ -3,6 +3,11 @@
   color: white;
 }
 
+.sukariFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sukariItem {
   display: flex;
   align-items: center;
@@ -30,6 +35,14 @@
 .sukariCaption {
   margin-top: 1vh;
   font-style: italic;
+}
+
+.sukariDetails {
+  margin-bottom: 5%;
+}
+
+.sukariMaps {
+  color: #be8e3c;
 }
 
 .copy {
