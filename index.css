@@ -18,6 +18,10 @@
   font-weight: 500;
 }
 
+.sukariSubtitle {
+  font-size: 120%;
+}
+
 .sukariPara {
   padding: 5% 0;
   font-size: 110%;
@@ -26,4 +30,10 @@
 .sukariCaption {
   margin-top: 1vh;
   font-style: italic;
+}
+
+.copy {
+  font-size: 70%;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
 }
