@@ -1,3 +1,13 @@
+@font-face {
+  font-family: normal;
+  src: url(fonts/helvetica.ttf);
+}
+
+@font-face {
+  font-family: light;
+  src: url(fonts/helvetica-light.ttf);
+}
+
 .sukariBgd {
   background-color: black;
   color: white;
@@ -19,17 +29,25 @@
 }
 
 .sukariTitle {
+  font-family: normal;
   font-size: 180%;
   font-weight: 500;
+  letter-spacing: 1vw;
+  padding-bottom: 8%;
 }
 
 .sukariSubtitle {
-  font-size: 120%;
+  font-family: light;
+  font-size: 90%;
+  letter-spacing: 0.8vw;
+  padding-top: 3%;
 }
 
 .sukariPara {
+  font-family: normal;
+  letter-spacing: 0.5vw;
+  font-size: 100%;
   padding: 5% 0;
-  font-size: 110%;
 }
 
 .sukariCaption {
