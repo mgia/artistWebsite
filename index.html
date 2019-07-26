@@ -4,44 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Marc G Tan" />
-    <title>Exhibition Sukari</title>
+    <meta name="description" content="Description" />
+
+    <title>Title</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <style>
-      section {
-        padding: 4% 0;
-      }
-      .sukariBgd {
-        background-color: black;
-        color: white;
-      }
-
-      .sukariItem {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .sukariTitle {
-        font-size: 200%;
-        font-weight: 500;
-      }
-
-      .sukariPara {
-        padding: 5% 0;
-        font-size: 150%;
-      }
-
-      .sukariCaption {
-        font-style: italic;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <div class="container-fluid p-0">
-      <div id="base" class="carousel slide sukariBgd" data-ride="carousel">
+  <body class="sukariBgd">
+    <div class="container-fluid">
+      <div id="base" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#base" data-slide-to="0" class="active"></li>
           <li data-target="#base" data-slide-to="1"></li>
@@ -132,115 +107,85 @@
         </a>
       </div>
     </div>
-    <div class="sukariBgd">
-      <section id="header">
-        <div class="container-fluid text-center pt-5">
-          <h2>I NYONAM SUKARI</h2>
-          <h3>(1968 - 2010)</h3>
-          <h3>Bali, Indonesia</h3>
-        </div>
-      </section>
-      <section id="about">
-        <div class="container">
-          <div class="sukariTitle text-center">About</div>
-          <div class="sukariPara">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
-            dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
-            tincidunt magna, ac vehicula tortor.
-          </div>
-          <div class="sukariPara">
-            Pellentesque eget efficitur erat, at interdum diam. Maecenas
-            ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
-            quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
-            Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
-          </div>
-        </div>
-      </section>
-      <section id="picture">
-        <div class="text-center">
-          <img class="mb-3" src="img/faces.png" alt="Sukari Painting #6" />
-          <span class="sukariCaption">Artwork name</span>
-        </div>
-      </section>
-      <section id="artwork">
-        <div class="container">
-          <div class="sukariTitle text-center">Artwork</div>
-          <div class="sukariPara">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
-            dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
-            tincidunt magna, ac vehicula tortor.
-          </div>
-          <div class="sukariPara">
-            Pellentesque eget efficitur erat, at interdum diam. Maecenas
-            ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
-            quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
-            Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
-          </div>
-        </div>
-      </section>
-      <section id="picture">
-        <div class="text-center">
-          <img class="mb-3" src="img/bull.png" alt="Sukari Painting #6" />
-          <span class="sukariCaption">Artwork name</span>
-        </div>
-      </section>
-      <section id="about">
-        <div class="container mb-5">
-          <div class="sukariTitle text-center">Event</div>
-          <div class="sukariPara">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
-            dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
-            tincidunt magna, ac vehicula tortor.
-          </div>
-          <div class="sukariPara">
-            Pellentesque eget efficitur erat, at interdum diam. Maecenas
-            ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
-            quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
-            Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
-          </div>
-        </div>
-      </section>
+    <div class="container">
+      <div class="sukariSection text-center">
+        <h2>I NYONAM SUKARI</h2>
+        <h3>(1968 - 2010)</h3>
+        <h3>Bali, Indonesia</h3>
+      </div>
     </div>
-    <section id="footer">
-      <div class="container mb-5">
-        <div class="row mt-5 mb-5">
-          <div class="col-sm-12 col-md-12">
-            <h3 class="text-center">Proudly Organized by:</h3>
-            <div class="mb-5">
-              <img
-                class="img-fluid"
-                src="/img/logos/sarasvati.png"
-                alt="Saravati Art Management"
-              />
-            </div>
-          </div>
+    <div class="container">
+      <div class="sukariSection">
+        <div class="sukariTitle text-center">
+          Title
         </div>
-        <div class="row mt-5 mb-5">
-          <div class="col-sm-12">
-            <h3 class="text-center">With the help of:</h3>
-          </div>
+        <div class="sukariPara">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+          dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
+          tincidunt magna, ac vehicula tortor.
         </div>
-        <div class="row mt-5" style="display:flex; align-items: center;">
-          <div class="col-sm-4">
-            <img class="img-fluid" src="/img/logos/ohd.png" alt="OHD" />
-          </div>
-          <div class="col-sm-4">
-            <img
-              class="img-fluid"
-              src="/img/logos/tamanbudaya.png"
-              alt="Taman Budaya"
-            />
-          </div>
-          <div class="col-sm-4">
-            <img
-              class="img-fluid"
-              src="/img/logos/sanggardewata.png"
-              alt="Sanggar Dewata"
-            />
-          </div>
+        <div class="sukariPara">
+          Pellentesque eget efficitur erat, at interdum diam. Maecenas
+          ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
+          quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
+          Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
         </div>
       </div>
-    </section>
+    </div>
+
+    <div class="container-fluid p-0">
+      <div class="sukariSection">
+        <img class="img-fluid" src="img/faces.png" alt="Sukari Painting #6" />
+        <div class="text-center sukariCaption">Artwork name</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sukariSection">
+        <div class="sukariTitle text-center">
+          Artwork
+        </div>
+        <div class="sukariPara">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+          dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
+          tincidunt magna, ac vehicula tortor.
+        </div>
+        <div class="sukariPara">
+          Pellentesque eget efficitur erat, at interdum diam. Maecenas
+          ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
+          quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
+          Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-0">
+      <div class="sukariSection">
+        <img class="img-fluid" src="img/bull.png" alt="Sukari Painting #7" />
+        <div class="text-center sukariCaption">Artwork name</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sukariSection">
+        <div class="sukariTitle text-center">
+          Event
+        </div>
+        <div class="sukariPara">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+          dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
+          tincidunt magna, ac vehicula tortor.
+        </div>
+        <div class="sukariPara">
+          Pellentesque eget efficitur erat, at interdum diam. Maecenas
+          ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
+          quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
+          Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
+        </div>
+        <a href="https://maps.google.com/?q=Houston,+TX" target="_blank">Test</a>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -256,15 +201,5 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(document).ready(function() {
-        $("#base").on("swiperight", function() {
-          $(this).carousel("prev");
-        });
-        $("#base").on("swipeleft", function() {
-          $(this).carousel("next");
-        });
-      });
-    </script>
   </body>
 </html>
