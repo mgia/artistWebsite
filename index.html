@@ -10,6 +10,10 @@
       h2 {
         font-size: 100px;
       }
+
+      section {
+        padding: 4% 0;
+      }
       .sukariBgd {
         background-color: black;
         color: white;
@@ -20,6 +24,20 @@
         align-items: center;
         justify-content: center;
       }
+
+      .sukariTitle {
+        font-size: 5.5em;
+        font-weight: 500;
+      }
+
+      .sukariPara {
+        padding: 5% 0;
+        font-size: 2em;
+      }
+
+      .sukariCaption {
+        font-style: italic;
+      }
     </style>
   </header>
   <body>
@@ -29,6 +47,10 @@
           <li data-target="#base" data-slide-to="0" class="active"></li>
           <li data-target="#base" data-slide-to="1"></li>
           <li data-target="#base" data-slide-to="2"></li>
+          <li data-target="#base" data-slide-to="3"></li>
+          <li data-target="#base" data-slide-to="4"></li>
+          <li data-target="#base" data-slide-to="5"></li>
+          <li data-target="#base" data-slide-to="6"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -37,14 +59,56 @@
             </div>
           </div>
           <div class="carousel-item min-vh-100">
-            <div class="min-vh-100 sukariItem"><h2>Image 1</h2></div>
+            <div class="min-vh-100 sukariItem">
+              <img
+                class="d-block w-100"
+                src="img/spinner/square.png"
+                alt="Sukari Painting #1"
+              />
+            </div>
           </div>
           <div class="carousel-item">
             <div class="min-vh-100 sukariItem">
               <img
                 class="d-block w-100"
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/6/63/IMG_%28business%29.svg/1200px-IMG_%28business%29.svg.png"
-                alt="Third slide"
+                src="img/spinner/dance.png"
+                alt="Sukari Painting #2"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="min-vh-100 sukariItem">
+              <img
+                class="d-block w-100"
+                src="img/spinner/red.png"
+                alt="Sukari Painting #3"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="min-vh-100 sukariItem">
+              <img
+                class="d-block w-100"
+                src="img/spinner/king.png"
+                alt="Sukari Painting #4"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="min-vh-100 sukariItem">
+              <img
+                class="d-block w-100"
+                src="img/spinner/hog.png"
+                alt="Sukari Painting #5"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="min-vh-100 sukariItem">
+              <img
+                class="d-block w-100"
+                src="img/spinner/event.png"
+                alt="Sukari Event Details"
               />
             </div>
           </div>
@@ -69,13 +133,77 @@
         </a>
       </div>
     </div>
-    <section id="header"><h2>Header</h2></section>
-    <section id="about"><h2>About</h2></section>
-    <section id="artwork"><h2>Artwork</h2></section>
-    <section id="event"><h2>Event</h2></section>
+    <div class="sukariBgd">
+      <section id="header">
+        <div class="container-fluid text-center pt-5">
+          <h2>I NYONAM SUKARI</h2>
+          <h3>(1968 - 2010)</h3>
+          <h3>Bali, Indonesia</h3>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <div class="sukariTitle text-center">About</div>
+          <div class="sukariPara">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+            dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
+            tincidunt magna, ac vehicula tortor.
+          </div>
+          <div class="sukariPara">
+            Pellentesque eget efficitur erat, at interdum diam. Maecenas
+            ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
+            quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
+            Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
+          </div>
+        </div>
+      </section>
+      <section id="picture">
+        <div class="text-center">
+          <img class="mb-3" src="img/faces.png" alt="Sukari Painting #6" />
+          <span class="sukariCaption">Artwork name</span>
+        </div>
+      </section>
+      <section id="artwork">
+        <div class="container">
+          <div class="sukariTitle text-center">Artwork</div>
+          <div class="sukariPara">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+            dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
+            tincidunt magna, ac vehicula tortor.
+          </div>
+          <div class="sukariPara">
+            Pellentesque eget efficitur erat, at interdum diam. Maecenas
+            ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
+            quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
+            Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
+          </div>
+        </div>
+      </section>
+      <section id="picture">
+        <div class="text-center">
+          <img class="mb-3" src="img/bull.png" alt="Sukari Painting #6" />
+          <span class="sukariCaption">Artwork name</span>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container mb-5">
+          <div class="sukariTitle text-center">Event</div>
+          <div class="sukariPara">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+            dui maximus, lacinia dolor vitae, efficitur arcu. Quisque sit amet
+            tincidunt magna, ac vehicula tortor.
+          </div>
+          <div class="sukariPara">
+            Pellentesque eget efficitur erat, at interdum diam. Maecenas
+            ultrices, felis ut dignissim eleifend, nisl diam euismod lectus,
+            quis aliquam nulla nibh et neque. Aliquam et dignissim leo.
+            Pellentesque tempor turpis tellus, quis accumsan purus hendrerit ac.
+          </div>
+        </div>
+      </section>
+    </div>
     <section id="footer">
-      <div class="container mb-5 p-5">
-        <hr />
+      <div class="container mb-5">
         <div class="row mt-5 mb-5">
           <div class="col-sm-12 col-md-12">
             <h3 class="text-center">Proudly Organized by:</h3>
