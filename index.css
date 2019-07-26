@@ -1,19 +1,24 @@
 @font-face {
   font-family: normal;
-  src: url(fonts/helvetica.ttf);
+  src: url(/fonts/helvetica.ttf);
 }
 
 @font-face {
   font-family: light;
-  src: url(fonts/helvetica-light.ttf);
+  src: url(/fonts/helvetica-light.ttf);
 }
 
 .sukariLang {
+  color: #be8e3c;
   width: inherit;
   font-family: normal;
   font-size: 60%;
   letter-spacing: 0.5vw;
   padding: 5% 0;
+}
+
+.sukariLang:hover {
+  color: #be8e3c;
 }
 
 .sukariLang:visited {
