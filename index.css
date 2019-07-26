@@ -1,0 +1,29 @@
+.sukariBgd {
+  background-color: black;
+  color: white;
+}
+
+.sukariItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sukariSection {
+  padding: 5vh 0;
+}
+
+.sukariTitle {
+  font-size: 180%;
+  font-weight: 500;
+}
+
+.sukariPara {
+  padding: 5% 0;
+  font-size: 110%;
+}
+
+.sukariCaption {
+  margin-top: 1vh;
+  font-style: italic;
+}
