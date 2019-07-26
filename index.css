@@ -8,6 +8,24 @@
   src: url(fonts/helvetica-light.ttf);
 }
 
+.sukariLang {
+  width: inherit;
+  font-family: normal;
+  font-size: 60%;
+  letter-spacing: 0.5vw;
+  padding: 5% 0;
+}
+
+.sukariLang:visited {
+  color: #be8e3c;
+}
+
+.sukariBorder {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #be8e3c;
+}
+
 .sukariBgd {
   background-color: black;
   color: white;
