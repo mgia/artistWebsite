@@ -12,7 +12,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/index.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css" />
     <link rel="canonical" href="/en/index.html" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144655770-1"></script>
@@ -23,7 +24,6 @@
 
       gtag('config', 'UA-144655770-1');
     </script>
-
   </head>
   <body>
     <div class="sukariBgd">
@@ -52,10 +52,10 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item min-vh-100">
+            <div class="carousel-item">
               <div class="min-vh-100 sukariItem">
                 <img
-                  class="d-block w-100"
+                  class="d-block img-fluid sukariImage"
                   src="/img/spinner/square.png"
                   alt="Sukari Painting #1"
                 />
@@ -64,7 +64,7 @@
             <div class="carousel-item">
               <div class="min-vh-100 sukariItem">
                 <img
-                  class="d-block w-100 img-fluid"
+                  class="d-block img-fluid sukariImage"
                   src="/img/spinner/dance.png"
                   alt="Sukari Painting #2"
                 />
@@ -73,7 +73,7 @@
             <div class="carousel-item">
               <div class="min-vh-100 sukariItem">
                 <img
-                  class="d-block w-100 img-fluid"
+                  class="d-block img-fluid sukariImage"
                   src="/img/spinner/red.png"
                   alt="Sukari Painting #3"
                 />
@@ -82,7 +82,7 @@
             <div class="carousel-item">
               <div class="min-vh-100 sukariItem">
                 <img
-                  class="d-block w-100 img-fluid"
+                  class="d-block img-fluid sukariImage"
                   src="/img/spinner/king.png"
                   alt="Sukari Painting #4"
                 />
@@ -91,7 +91,7 @@
             <div class="carousel-item">
               <div class="min-vh-100 sukariItem">
                 <img
-                  class="d-block w-100 img-fluid"
+                  class="d-block img-fluid sukariImage"
                   src="/img/spinner/hog.png"
                   alt="Sukari Painting #5"
                 />
@@ -100,7 +100,7 @@
             <div class="carousel-item">
               <div class="min-vh-100 sukariItem">
                 <img
-                  class="d-block w-100"
+                  class="d-block img-fluid sukariImage"
                   src="/img/spinner/event.png"
                   alt="Sukari Event Details"
                 />
@@ -129,10 +129,49 @@
       </div>
 
       <div class="container-fluid p-0">
-        <div class="sukariSection">
+        <div class="sukariSection text-center">
           <img class="img-fluid" src="/img/header.png" alt="Exhibition Header" />
         </div>
       </div>
+
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="/id/index.html">
+          <img src="/favicon.ico" width="30" height="30" alt="">
+        </a>
+        <div class="navbar-text" style="color:white; font-size:60%;">
+          <a href="https://maps.google.com/?q=Taman+Budaya+Yogyakarta" target="_blank">
+            Taman Budaya Yogyakarta
+          </a>
+          <div>
+            26 Jul - 12 Aug 19 | 10:00 - 21:00
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="/id/opening.html">Pembukaan Pameran</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.instagram.com/sarasvati_art" target="_blank">
+                  Instagram <span><i class="fa fa-instagram" style="color: white;"></i></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.facebook.com/SarasvatiArtMagazine/" target="_blank">
+                  Facebook <span><i class="fa fa-facebook" style="color: white;"></i></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="whatsapp://send?text=Visit Posthumous Solo Exhibition of I Nyoman Sukari - sukari.sarasvati.co.id" data-action="share/whatsapp/share">
+                  Whatsapp <span><i class="fa fa-whatsapp" style="color: white;"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
 
       <div class="container">
         <div class="sukariSection text-center">
@@ -146,7 +185,7 @@
       <div class="container">
         <div class="sukariSection">
           <div class="sukariFlex">
-            <div class="col-8">
+            <div class="col-8 sukariProfile">
               <img class="img-fluid rounded-circle" src="/img/man2.png" alt="Sukari Profile Picture"></img>
             </div>
           </div>
@@ -156,12 +195,14 @@
           </div>
           <div class="sukariPara">
             Seorang seniman yang terkesan sangar namun sangat menghargai tradisi-tradisi Bali, di satu sisi Sukari adalah sosok pemimpin dalam komunitas seni rupa, seorang yang hidup dengan gaya bohemian, berprinsip teguh dan menjalani hidup dengan penuh makna.</div>
+          </div>
+
         </div>
       </div>
 
       <div class="container-fluid p-0">
-        <div class="sukariSection">
-          <img class="img-fluid" src="/img/bones.png" alt="Sukari Painting #6" />
+        <div class="sukariSection text-center">
+          <img class="img-fluid sukariImageBreak" src="/img/bones.png" alt="Sukari Painting #6" />
           <div class="text-center sukariCaption">Tengkorak & Trunyan (1995)</div>
         </div>
       </div>
@@ -175,8 +216,8 @@
       </div>
 
       <div class="container-fluid p-0">
-        <div class="sukariSection">
-          <img class="img-fluid" src="/img/faces.png" alt="Sukari Painting #7" />
+        <div class="sukariSection  text-center">
+          <img class="img-fluid sukariImageBreak" src="/img/faces.png" alt="Sukari Painting #7" />
           <div class="text-center sukariCaption">Wajah Demokrasi (2008)</div>
         </div>
       </div>
@@ -185,13 +226,14 @@
         <div class="sukariSection">
           <div class="sukariTitle text-center">Karya Seni</div>
           <div class="sukariPara">
-Penggambaran sosok pemimpin dengan kreativitas yang tinggi, karya Sukari memancarkan <i>energi mistis</i>.</div>
+            Penggambaran sosok pemimpin dengan kreativitas yang tinggi, karya Sukari memancarkan <i>energi mistis</i>.</div>
+          </div>
         </div>
       </div>
 
       <div class="container-fluid p-0">
-        <div class="sukariSection">
-          <img class="img-fluid" src="/img/gema.jpg" alt="Sukari Painting #8" />
+        <div class="sukariSection text-center">
+          <img class="img-fluid sukariImageBreak" src="/img/gema.jpg" alt="Sukari Painting #8" />
           <div class="text-center sukariCaption">Gema Eka Bhuana (1996)</div>
         </div>
       </div>
@@ -200,12 +242,13 @@ Penggambaran sosok pemimpin dengan kreativitas yang tinggi, karya Sukari memanca
         <div class="sukariSection">
           <div class="sukariPara">
             Di dalam misteri dan fasad yang tersusun berkesinambungan, karyanya <i>sangat mencengangkan</i>, dengan warna-warna kontras yang menjelma menjadi lebih gelap, membuat karyanya semakin terasa magis.</div>
+          </div>
         </div>
       </div>
 
       <div class="container-fluid p-0">
-        <div class="sukariSection">
-          <img class="img-fluid" src="/img/bull.png" alt="Sukari Painting #9" />
+        <div class="sukariSection  text-center">
+          <img class="img-fluid sukariImageBreak" src="/img/bull.png" alt="Sukari Painting #9" />
           <div class="text-center sukariCaption">Mencari Dunia Baru (2003)</div>
         </div>
       </div>
@@ -214,7 +257,8 @@ Penggambaran sosok pemimpin dengan kreativitas yang tinggi, karya Sukari memanca
         <div class="sukariSection">
           <div class="sukariTitle text-center">Pameran</div>
           <div class="sukariPara text-center">
-Pameran Trajectory ini adalah sebuah pameran anumerta yang pertama untuk merayakan kejeniusan Sukari. Mari saksikan bersama.</div>
+            Pameran Trajectory ini adalah sebuah pameran anumerta yang pertama untuk merayakan kejeniusan Sukari. Mari saksikan bersama.</div>
+          </div>
           <div class="sukariPara text-center">
             <a
               class="btn btn-primary sukariShare"
@@ -226,7 +270,7 @@ Pameran Trajectory ini adalah sebuah pameran anumerta yang pertama untuk merayak
             <div class="sukariDetails">
               <b>Tanggal</b>
               <div>
-                Juli 26, 2019 - Agustus 12, 2019
+                Juli 26, 2019 - Augustus 12, 2019
               </div>
             </div>
             <div class="sukariDetails">
@@ -315,5 +359,13 @@ Pameran Trajectory ini adalah sebuah pameran anumerta yang pertama untuk merayak
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+        $(window).scroll(function(){
+        if  ($(window).scrollTop() >= 285)
+            $('nav').addClass('fixed-header');
+        else
+            $('nav').removeClass('fixed-header');
+    });
+    </script>
   </body>
 </html>
