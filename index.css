@@ -71,6 +71,17 @@
   padding-top: 3%;
 }
 
+@media all and (min-width: 700px) {
+  .sukariProfile {
+    max-width: 350px;
+  }
+  .sukariImageBreak {
+    border: solid;
+    border-color: white;
+    max-width: 650px;
+  }
+}
+
 .sukariPara {
   font-family: normal;
   letter-spacing: 0.5vw;
