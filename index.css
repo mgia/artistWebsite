@@ -41,10 +41,15 @@
   align-items: center;
   justify-content: center;
 }
+
 .sukariItem {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sukariImage {
+  max-height: 80vh;
 }
 
 .sukariSection {
