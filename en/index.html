@@ -133,6 +133,25 @@
         </div>
       </div>
 
+      <nav class="fixed-header navbar  navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="/favicon.ico" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Opening Ceremony</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
       <div class="container">
         <div class="sukariSection text-center">
           <div class="sukariTitle">I NYOMAN SUKARI</div>
@@ -319,5 +338,17 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+        $(window).scroll(function(){
+        if ($(window).scrollTop() >= 285) {
+            $('nav').addClass('fixed-header');
+            $('nav div').addClass('visible-title');
+        }
+        else {
+            $('nav').removeClass('fixed-header');
+            $('nav div').removeClass('visible-title');
+        }
+    });
+    </script>
   </body>
 </html>
